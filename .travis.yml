@@ -7,4 +7,4 @@ script:
 install:
   - npm install -g firebase-tools
 after success:
-  - firebase deploy --projectId lista-zakupow-acd7a  --token "$FIREBASE_TOKEN"
+  - firebase deploy --project lista-zakupow-acd7a  --token $FIREBASE_TOKEN
