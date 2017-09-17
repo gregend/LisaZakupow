@@ -1,87 +1,24 @@
 <html>
-	<head>
-			<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<style type="text/css">
-			#title {
-				text-align: center;
-				margin: 0 5%;
-				letter-spacing: 3em;
-			}
-			#left {
-				border: 1px solid;
-				width: 30%;
-				height: 70%;
-				box-shadow: 5px 5px 5px #888888;
-				margin-right: 15px;
-			}
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
 
-			#right {
-				border: 1px solid;
-				width: 70%;
-				box-shadow: 5px 5px 5px #888888;
-				height: 80%;
-			}
-			#container {
-				display: flex;
-				margin: 5px;
-				margin: 2% 8%;
-			}
-			body {
-				margin: 2% 2%;
-				padding: 10px;
-				box-shadow: 1px 1px 1px #888888;
-				font-family: 'Roboto', sans-serif;
-			}
-			ul {
-				list-style-type: none;
-				padding: 0;
-				margin: 0;
-			}
-			li {
-				border: 1px solid white;
-				width: 100%;
-				text-align: center;
-				height: 20%;
-				margin: auto auto;
-			}
-
-			#right li {
-				height: 10%;
-			}
-			li:hover {
-				background: #F7F6F6;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="title">
-			<h1>Lista zakupów</h1>
+<body>
+	<div id="title">
+		<h1>Lista zakupów</h1>
+	</div>
+	<div id="container">
+		<div id="left">
+			<ul id="lists"></ul>
 		</div>
-		<div id="container">
-			<div id="left">
-				<ul>
-					<li>Marysia to fajna dziewczyna.</li>
-					<li>Marysia to fajna dziewczyna.</li>
-					<li>Marysia to fajna dziewczyna.</li>
-					<li>Marysia to fajna dziewczyna.</li>
-					<li>Marysia to fajna dziewczyna.</li>
-				</ul>
-			</div>
-			<div id="right">
-				<ul>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-					<li>Marysia to fajna dziewczyna. Darek to fajny programista.</li>
-				</ul>
-			</div>
+		<div id="right">
+			<ul id="elements"></ul>
 		</div>
-	</body>
+	</div>
+</body>
 </html>

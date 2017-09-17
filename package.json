@@ -1,0 +1,22 @@
+{
+  "name": "lisa_zakupow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregend/LisaZakupow.git"
+  },
+  "author": "Darek i Grzesiek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregend/LisaZakupow/issues"
+  },
+  "homepage": "https://github.com/gregend/LisaZakupow#readme",
+  "dependencies": {
+    "firebase-tools": "^3.11.0"
+  }
+}
