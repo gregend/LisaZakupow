@@ -1,9 +1,55 @@
 <html>
-	<head>
-		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
-	</head>
-	<body bgcolor="blue">
-		<center><h1>Lista zakupów</h1></center>
-		
-	</body>
+
+<head>
+	<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+	<title>Lista zakupów</title>
+	<style type="text/css">
+		/* #tytul { */
+			border: 1px solid;
+
+
+			width: 100%;
+			text-align: center;
+			margin: 10px;
+		}
+
+		div {}
+
+		#historia {
+			border: 1px solid purple;
+			width: 15%;
+			height: 85%;
+			margin: 5px;
+			float: left;
+		}
+
+		#listaZakupow {
+			border: 1px solid purple;
+			width: 100%;
+			height: 85%;
+			margin: 5px;
+			
+		}
+#container{
+	display: flex;
+	margin:5px;
+}
+		body {
+			width: 100%;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="tytul">
+		<h1>Lista zakupów</h1>
+	</div>
+	<div id="container">
+		<div id="historia"></div>
+		<div id="listaZakupow"></div>
+
+	</div>
+</body>
+
 </html>
